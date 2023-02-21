@@ -1,0 +1,451 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+.container{
+    width: 100%;
+    height: auto;
+    border: 3px solid red;
+}
+/* Navbar qismi Boshlandi */
+.container .navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+.container .navbar .left{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.container .navbar .left img{
+    height: 50%;
+}
+.container .navbar .meddil{
+    width: 30%;
+    height: 100%;
+}
+.container .navbar .meddil ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .navbar .meddil ul li a{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+/* ung Tomon boshlandi */
+.container .navbar .right{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.container .navbar .right .ruyxat{
+    width: 30%;
+    height: 100%;
+}
+.container .navbar .right .icon{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.container .navbar .right .icon img{
+    width: 25px;
+    height: 60%;
+}
+.container .navbar .right .ruyxat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .navbar .right .ruyxat  a{
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1E1E1E;
+
+}
+.container .navbar .right .ruyxat .sign{
+    color: #838383;
+}
+/* orqafon boshlandi */
+.container .Sardor{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+.container .Sardor .orqafon {
+    width: 100%;
+    height: 60px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.container .Sardor .orqafon .sardorjon {
+    width: 30%;
+    height: 100%;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container .Sardor .orqafon .sardorjon1 {
+    width: 30%;
+    height: 100%;
+    background-color: #ccc;
+    
+}
+.container .Sardor .orqafon .sardorjon2 {
+    width: 30%;
+    height: 100%;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container .Sardor .orqafon .sardorjon .Amira {
+    width: 100%;
+    height: 50%; 
+    display: flex;
+    justify-content: start;  
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.container .Sardor .orqafon .sardorjon1 .Amira1 {
+    width: 100%;
+    height: 100%;   
+    display: flex;
+    justify-content: start; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.container .Sardor .orqafon .sardorjon2 .Amira2 {
+    width: 100%;
+    height: 50%;   
+    display: flex;
+    justify-content: start;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+/* orqafon tugadi */
+
+/* reklama qismi */
+ 
+.container .Sardor .reklama {
+    width: 80%;
+    height: auto;
+    background-color: rgb(158, 137, 137);
+    margin: auto;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+.container .Sardor .reklama .reklama1 {
+    width: 1140px;
+    height: 140px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.container .Sardor .reklama .reklama1  .text ul {
+    display: flex;
+    gap: 10px;
+}
+.container .Sardor .reklama .reklama1  .text p {
+    font-size: 48px;
+    margin-top: 20px;
+}
+.container .Sardor .reklama .reklama1  .text ul li a {
+    font-size: 12px;
+    margin-top: 5px;
+    color: black;
+    
+}
+.container .Sardor .reklama .reklama1 .img img {
+    width: 100%;
+    height: 138px;
+}
+.container .Sardor .reklama .bratan{
+   width: 80%;
+   margin-top: 50px;
+   height: auto;
+   background-color: orange;
+   display: flex;
+   justify-content: space-between;
+}
+.container .Sardor .reklama .bratan .brat {
+    width: 49%;
+    height: auto;
+    background-color: #ccc;
+}
+.container .Sardor .reklama .bratan .brat ul {
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+.container .Sardor .reklama .bratan .brat .bg{
+    width: 100%;
+    height: 500px;
+    background: url(../img/image_14.png) no-repeat center;
+    background-size: 95% 100%;
+}
+.container .Sardor .reklama .bratan .brat .bg .bgg {
+    width: 57px; 
+    height: 24px;
+    margin-left: 15px; 
+    border-radius: 50px; 
+    margin-top: 15px;  
+    background-color: black;
+    color: white;
+}
+
+.container .Sardor .reklama .bratan .bratishka {
+    width: 49%;
+    height: 380px;
+    background-color: rgb(77, 76, 76);
+    font-size: 36px;
+    margin-top: 80px;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.container .Sardor .reklama .bratan .bratishka .bratjon {
+    width: 67px;
+    height: 22px;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.container .Sardor .reklama .bratan .bratishka .bratbek {
+    width: 535px;
+    height: 120px;
+    font-size: 14px;
+    margin-top: 65px;
+    line-height: 25px;
+}
+.container .Sardor .reklama .bratan .bratishka .bratboy {
+    font-size: 14px;
+}
+
+.container .Sardor .reklama .bratan .bratishka .bratalyoxa {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.container .Sardor .reklama .bratan .bratishka .bratanchik {
+    width: 300px;
+    height: 80px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.container .Sardor .reklama .bratan .bratishka .bratanbek {
+    width: 173px;
+    height: 56px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.container .Sardor .reklama .bratan .bratishka .bratanjon {
+   width: 186px;
+   height: 57px;
+   border-radius: 50px;
+}
+.container .Sardor .reklama .bratan .bratishka .bratanbek a {
+    font-size: 25px;
+    color: black;
+}
+.container .Sardor .reklama .bratan .bratishka .bratanjon a {
+    color: black;
+}
+.container .Sardor .tyolkala {
+    width: 80%;
+    height: 680px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+}
+.container .Sardor .tyolkala .ttt {
+    width: 700px;
+    height: auto;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: auto
+}
+.container .Sardor .tyolkala .ttt .ttt_4 {
+   font-size: 50px;
+   font-family: 'Montserrat', sans-serif;
+
+}
+.container .Sardor .tyolkala .sss_4{
+    width: 80%;
+    height: 380px;
+    border: 1px solid red;
+}
+.container .Sardor .tyolkala .ttt .ttt_5{
+    width: 25%;
+    height: 380px;
+    border: 1px solid red;
+}
+
+.container .Sardor .footers{
+    width: 100%;
+    height: auto;
+    background-color: #262626;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container .Sardor .footers .content{
+    width: 70%;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.container .Sardor .footers .content .searchs{
+    width: 100%;
+    height: 60px;
+    border: 2px solid #505050;
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px 0px;
+}
+.container .Sardor .footers .content .searchs .btn2{
+    width: 250px;
+    height: 95%;
+    border-radius: 50px;
+    background-color: #B0BCC2;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+.container .Sardor .footers .content .search_menu{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.container .Sardor .footers .content .search_menu .menu1{
+    width: 190px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.container .Sardor .footers .content .search_menu .menu1 .us{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: #fff;
+    height: 20px;
+}
+.container .Sardor .footers .content .search_menu .menu1 .menu2{
+    width: 100%;
+    height: 250px;
+}
+.container .Sardor .footers .content .search_menu .menu1 .menu2 ul{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.container .abdulaziz .footers .content .search_menu .menu1 .menu2 ul li a{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+/* Footers qismi Tugadi */
+/* Bottom qismi Boshlandi */
+.container .Sardor .bottom{
+    width: 100%;
+    height: auto;
+    background-color: #222121;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container .Sardor .bottom .bottom_navbar{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container .Sardor .bottom .bottom_navbar ul{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container .Sardor .bottom .bottom_navbar ul li a{
+text-transform: uppercase;
+color:#9F9FA0;
+font-size: 14px;
+
+}
+.container .Sardor .bottom .bottom_navbar .text_box{
+    width: 80%;
+    height: 40px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .Sardor .bottom .bottom_navbar .text_box .all{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #7B7B7B;
+}
+.container .Sardor .bottom .bottom_navbar .text_box .all a{
+    color: blue;
+}
